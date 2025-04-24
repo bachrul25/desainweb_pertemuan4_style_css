@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1c1c1c; /* Warna oranye khas Naruto */
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #1c1c1c; /* Warna hitam khas Akatsuki */
+    padding: 50px;
+    border-radius: 10px;
+}
+div h1 {
+    padding-top: 7px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #ffffff; /* Putih untuk kontras dengan hitam */
+}
+div h1:hover {
+    /* /* background: #f6a21e;   */
+    transform: scale(1.1) ; 
+    color: #e1ff00;  
+}
