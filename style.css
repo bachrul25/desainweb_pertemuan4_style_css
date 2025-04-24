@@ -1,0 +1,97 @@
+
+
+/* Opening Tugas 4 || Menambahkan style css pada tugas 1 sampai 3 */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-image: url('naruto-background.jpg'); */
+    background-color: #fcf5f5;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    max-width: 100%;
+}
+.container {
+
+    max-width: 100%;
+    height: 900px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.8);
+    
+}
+.container p {
+    justify-content: space-between;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    padding-bottom: 30px;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    /* padding-bottom: 30px; */
+}
+p {
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    /* margin-bottom: 30px; */
+}
+
+.profile {
+    display: block;
+    margin: auto;
+    padding-bottom: 30px; 
+}
+
+.profile:hover {
+    color: #ffd505;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+li {
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+}
+h1, h2 {
+    color: #FFA500;
+}
+
+.isi {
+    display: block;
+   text-align: center;
+   justify-content: center;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Posisi tengah secara horizontal */
+    justify-content: center; /* Posisi tengah secara vertikal */
+    /* height: 10vh; */
+}
+
+.task-list li {
+    margin: 10px 0;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s, background 0.3s;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center; /* Agar teks di dalamnya juga rata tengah */
+}
+
+.task-list li:hover {
+    background: #FFD700;
+    transform: scale(1.0);
+}
